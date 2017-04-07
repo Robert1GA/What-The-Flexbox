@@ -33,11 +33,19 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   display: flex;
   border: 10px solid goldenrod;
   height: 100vh;
-  flex-direction: row; /* row is the default */
-  flex-wrap: wrap; /* nowrap is the default */
-}
+  align-items: flex-start;
 
+}
 .box {
-  width: calc(33.333333333% - 20px);
-  margin: 10px;
+  width: 33.3333333%;
+}
+.box2 {
+  padding-bottom: 200px;
+}
+.box6 {
+  padding-bottom: 0px;
+}
+.box9 {
+  padding-bottom: 50px;
+  align-self: flex-end;
 }
